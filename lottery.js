@@ -72,7 +72,7 @@ function roll(){
 		if (lottery.speed<40) {
 			lottery.speed=40;
 		}
-		console.log(lottery.times+'次数 '+lottery.speed+'速度 '+lottery.prize+'随机数');
+                // console.log(lottery.times+'次数 '+lottery.speed+'速度 '+lottery.prize+'随机数');
 		lottery.timer = setTimeout(roll,lottery.speed);     //循环调用
 	}
 	return false;
